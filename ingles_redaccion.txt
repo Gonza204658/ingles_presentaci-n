@@ -1,0 +1,14 @@
+print("************BIENBENIDOS AL PARQUEADERO DEL ALEGRA*******************")
+Carros_adentro = 5
+Carros_ingresan = 0
+motos_adentro = 5
+motos_ingresan = 0
+activador = 1
+
+while activador == 1:
+    Opcion = int(input("SELECCIONA TÚ MEDIO DE TRANSPORTE: "))
+    if Opcion == 1:
+        total_carro = Carros_adentro + Carros_ingresan
+
+
+This part of the program shows the beginning of a parking system. First, the program displays a welcome message for the parking lot. Then, it defines some variables that store the number of cars and motorcycles already inside and the ones that will enter. The variable "activador" controls the loop so the program keeps running. Inside the loop, the user selects their type of transportation. If the user chooses a car, the program calculates the total number of cars in the parking lot.
